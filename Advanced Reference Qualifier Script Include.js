@@ -1,3 +1,10 @@
+/*
+Created by Sova Nhem
+November 17, 2016
+
+Call using javascript:new BackfillSupportGroup().BackfillSupportGroup(current.u_support_org) in reference qualifier field
+*/
+
 var BackfillSupportGroup = Class.create();
 BackfillSupportGroup.prototype = {
 	initialize: function() {
